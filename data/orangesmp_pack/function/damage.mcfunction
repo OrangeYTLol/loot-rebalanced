@@ -1,2 +1,1 @@
-$damage @s $(damage) orangesmp_pack:bypass_all
-#$say i took $(damage) dmg
+$data modify entity @s Health set value $(new_hp)

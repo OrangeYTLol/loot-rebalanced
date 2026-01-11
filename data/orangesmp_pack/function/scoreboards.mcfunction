@@ -1,3 +1,2 @@
 scoreboard objectives add damage_taken minecraft.custom:minecraft.damage_taken
 scoreboard objectives add last_damage_taken dummy
-scoreboard objectives add recent_damage_taken dummy
