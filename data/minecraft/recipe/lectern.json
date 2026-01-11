@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "B": "minecraft:bookshelf",
+    "S": "#minecraft:wooden_slabs",
+    "E": "experience_bottle",
+    "M": "emerald_block"
+  },
+  "pattern": [
+    "SES",
+    " M ",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:lectern"
+  }
+}

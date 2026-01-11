@@ -1,0 +1,2 @@
+item modify entity @s armor.feet {function:"minecraft:set_enchantments",enchantments:{"minecraft:frost_walker":3},add:false}
+item modify entity @s armor.feet {function:"minecraft:filtered",item_filter:{predicates:{"minecraft:enchantments":[{enchantments:"minecraft:frost_walker",levels:{min:3}}]}},modifier:{function:"minecraft:set_enchantments",enchantments:{"orangesmp_pack:frost_walker_iii":0},add:false}}

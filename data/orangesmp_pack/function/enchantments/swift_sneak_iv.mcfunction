@@ -1,0 +1,2 @@
+item modify entity @s armor.legs {function:"minecraft:set_enchantments",enchantments:{"minecraft:swift_sneak":4},add:false}
+item modify entity @s armor.legs {function:"minecraft:filtered",item_filter:{predicates:{"minecraft:enchantments":[{enchantments:"minecraft:swift_sneak",levels:{min:4}}]}},modifier:{function:"minecraft:set_enchantments",enchantments:{"orangesmp_pack:swift_sneak_iv":0},add:false}}

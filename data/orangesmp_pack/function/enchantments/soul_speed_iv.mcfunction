@@ -1,0 +1,2 @@
+item modify entity @s armor.feet {function:"minecraft:set_enchantments",enchantments:{"minecraft:soul_speed":4},add:false}
+item modify entity @s armor.feet {function:"minecraft:filtered",item_filter:{predicates:{"minecraft:enchantments":[{enchantments:"minecraft:soul_speed",levels:{min:4}}]}},modifier:{function:"minecraft:set_enchantments",enchantments:{"orangesmp_pack:soul_speed_iv":0},add:false}}

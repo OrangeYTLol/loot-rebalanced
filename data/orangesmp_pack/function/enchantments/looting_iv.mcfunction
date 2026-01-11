@@ -1,0 +1,2 @@
+item modify entity @s weapon.mainhand {function:"minecraft:set_enchantments",enchantments:{"minecraft:looting":4},add:false}
+item modify entity @s weapon.mainhand {function:"minecraft:filtered",item_filter:{predicates:{"minecraft:enchantments":[{enchantments:"minecraft:looting",levels:{min:4}}]}},modifier:{function:"minecraft:set_enchantments",enchantments:{"orangesmp_pack:looting_iv":0},add:false}}

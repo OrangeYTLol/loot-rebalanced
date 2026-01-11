@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": "heart_of_the_sea",
+    "S": "prismarine_shard",
+    "T": "tide_armor_trim_smithing_template",
+    "R": "breeze_rod"
+  },
+  "pattern": [
+    " SH",
+    " TS",
+    "R  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "trident"
+  }
+}

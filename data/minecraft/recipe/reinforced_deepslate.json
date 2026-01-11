@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "minecraft:bone_block",
+    "D": "minecraft:cobbled_deepslate",
+    "T": "minecraft:wild_armor_trim_smithing_template"
+  },
+  "pattern": [
+    "#D#",
+    "#T#",
+    "#D#"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:reinforced_deepslate"
+  }
+}

@@ -1,0 +1,2 @@
+item modify entity @s weapon.mainhand {function:"minecraft:set_enchantments",enchantments:{"minecraft:smite":6},add:false}
+item modify entity @s weapon.mainhand {function:"minecraft:filtered",item_filter:{predicates:{"minecraft:enchantments":[{enchantments:"minecraft:smite",levels:{min:6}}]}},modifier:{function:"minecraft:set_enchantments",enchantments:{"orangesmp_pack:smite_vi":0},add:false}}

@@ -1,0 +1,28 @@
+{
+  "anvil_cost": 4,
+  "description": "Punch III",
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "orangesmp_pack:enchantments/punch_iii"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 77,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 52,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/bow",
+  "weight": 1
+}

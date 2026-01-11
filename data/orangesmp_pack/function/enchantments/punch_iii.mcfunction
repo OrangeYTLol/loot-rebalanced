@@ -1,0 +1,2 @@
+item modify entity @s weapon.mainhand {function:"minecraft:set_enchantments",enchantments:{"minecraft:punch":3},add:false}
+item modify entity @s weapon.mainhand {function:"minecraft:filtered",item_filter:{predicates:{"minecraft:enchantments":[{enchantments:"minecraft:punch",levels:{min:3}}]}},modifier:{function:"minecraft:set_enchantments",enchantments:{"orangesmp_pack:punch_iii":0},add:false}}

@@ -1,0 +1,2 @@
+item modify entity @s armor.head {function:"minecraft:set_enchantments",enchantments:{"minecraft:respiration":4},add:false}
+item modify entity @s armor.head {function:"minecraft:filtered",item_filter:{predicates:{"minecraft:enchantments":[{enchantments:"minecraft:respiration",levels:{min:4}}]}},modifier:{function:"minecraft:set_enchantments",enchantments:{"orangesmp_pack:respiration_iv":0},add:false}}

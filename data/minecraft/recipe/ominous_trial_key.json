@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "flow_armor_trim_smithing_template",
+    "trial_key",
+    "ominous_bottle"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ominous_trial_key"
+  }
+}

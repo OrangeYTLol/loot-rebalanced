@@ -1,0 +1,2 @@
+item modify entity @s weapon.mainhand {function:"minecraft:set_enchantments",enchantments:{"minecraft:fire_aspect":3},add:false}
+item modify entity @s weapon.mainhand {function:"minecraft:filtered",item_filter:{predicates:{"minecraft:enchantments":[{enchantments:"minecraft:fire_aspect",levels:{min:3}}]}},modifier:{function:"minecraft:set_enchantments",enchantments:{"orangesmp_pack:fire_aspect_iii":0},add:false}}

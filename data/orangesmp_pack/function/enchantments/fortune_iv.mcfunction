@@ -1,0 +1,2 @@
+item modify entity @s weapon.mainhand {function:"minecraft:set_enchantments",enchantments:{"minecraft:fortune":4},add:false}
+item modify entity @s weapon.mainhand {function:"minecraft:filtered",item_filter:{predicates:{"minecraft:enchantments":[{enchantments:"minecraft:fortune",levels:{min:4}}]}},modifier:{function:"minecraft:set_enchantments",enchantments:{"orangesmp_pack:fortune_iv":0},add:false}}

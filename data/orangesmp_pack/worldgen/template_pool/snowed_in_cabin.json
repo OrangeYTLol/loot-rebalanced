@@ -1,0 +1,16 @@
+{
+  "name": "orangesmp_pack:snowed_in_cabin",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "orangesmp_pack:snowed_in_cabin",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "apply_waterlogging"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "description": "Fragile Strength",
+  "supported_items": "#minecraft:enchantable/sword",
+  "weight": 1,
+  "max_level": 4,
+  "min_cost": {
+    "base": 12,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 32,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 0.5
+          }
+        }
+      }
+    ],
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "orangesmp_pack:enchantments/fragile_strength"
+        }
+      }
+    ]
+  }
+}

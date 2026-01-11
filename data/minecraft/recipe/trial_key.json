@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": "cobblestone",
+    "T": "bolt_armor_trim_smithing_template",
+    "C": [
+        "copper_block",
+        "waxed_copper_block"
+    ],
+    "D": "copper_ingot"
+  },
+  "pattern": [
+    "S ",
+    "T ",
+    "CD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "trial_key"
+  }
+}

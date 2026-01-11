@@ -1,0 +1,2 @@
+item modify entity @s weapon.mainhand {function:"minecraft:set_enchantments",enchantments:{"minecraft:sharpness":6},add:false}
+item modify entity @s weapon.mainhand {function:"minecraft:filtered",item_filter:{predicates:{"minecraft:enchantments":[{enchantments:"minecraft:sharpness",levels:{min:6}}]}},modifier:{function:"minecraft:set_enchantments",enchantments:{"orangesmp_pack:sharpness_vi":0},add:false}}

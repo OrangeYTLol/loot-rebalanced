@@ -1,0 +1,29 @@
+{
+  "anvil_cost": 4,
+  "description": "Depth Strider IV",
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "orangesmp_pack:enchantments/depth_strider_iv"
+        }
+      }
+    ]
+  },
+  "exclusive_set": "minecraft:frost_walker",
+  "max_cost": {
+    "base": 55,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 40,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 1
+}

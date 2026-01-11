@@ -1,0 +1,2 @@
+item modify entity @s armor.feet {function:"minecraft:set_enchantments",enchantments:{"minecraft:feather_falling":5},add:false}
+item modify entity @s armor.feet {function:"minecraft:filtered",item_filter:{predicates:{"minecraft:enchantments":[{enchantments:"minecraft:feather_falling",levels:{min:0}}]}},modifier:{function:"minecraft:set_enchantments",enchantments:{"orangesmp_pack:feather_falling_v":0},add:false}}

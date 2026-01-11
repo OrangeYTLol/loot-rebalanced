@@ -1,0 +1,2 @@
+item modify entity @s weapon.mainhand {function:"minecraft:set_enchantments",enchantments:{"minecraft:efficiency":6},add:false}
+item modify entity @s weapon.mainhand {function:"minecraft:filtered",item_filter:{predicates:{"minecraft:enchantments":[{enchantments:"minecraft:efficiency",levels:{min:6}}]}},modifier:{function:"minecraft:set_enchantments",enchantments:{"orangesmp_pack:efficiency_vi":0},add:false}}

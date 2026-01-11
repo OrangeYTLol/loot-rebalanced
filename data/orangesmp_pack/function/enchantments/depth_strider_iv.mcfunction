@@ -1,0 +1,2 @@
+item modify entity @s armor.feet {function:"minecraft:set_enchantments",enchantments:{"minecraft:depth_strider":4},add:false}
+item modify entity @s armor.feet {function:"minecraft:filtered",item_filter:{predicates:{"minecraft:enchantments":[{enchantments:"minecraft:depth_strider",levels:{min:4}}]}},modifier:{function:"minecraft:set_enchantments",enchantments:{"orangesmp_pack:depth_strider_iv":0},add:false}}

@@ -1,0 +1,33 @@
+{
+  "anvil_cost": 1,
+  "description": "Protection V",
+  "exclusive_set": [
+    "minecraft:blast_protection",
+    "minecraft:fire_protection",
+    "minecraft:projectile_protection"
+  ],
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 11
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 1,
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "orangesmp_pack:enchantments/protection_v"
+        }
+      }
+    ]
+  }
+}

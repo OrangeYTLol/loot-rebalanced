@@ -1,0 +1,4 @@
+item modify entity @s weapon.mainhand {function:"minecraft:set_enchantments",enchantments:{"minecraft:quick_charge":4},add:false}
+item modify entity @s weapon.mainhand {function:"minecraft:filtered",item_filter:{predicates:{"minecraft:enchantments":[{enchantments:"minecraft:quick_charge",levels:{min:4}}]}},modifier:{function:"minecraft:set_enchantments",enchantments:{"orangesmp_pack:quick_charge_iv":0},add:false}}
+item modify entity @s weapon.offhand {function:"minecraft:set_enchantments",enchantments:{"minecraft:quick_charge":4},add:false}
+item modify entity @s weapon.offhand {function:"minecraft:filtered",item_filter:{predicates:{"minecraft:enchantments":[{enchantments:"minecraft:quick_charge",levels:{min:4}}]}},modifier:{function:"minecraft:set_enchantments",enchantments:{"orangesmp_pack:quick_charge_iv":0},add:false}}

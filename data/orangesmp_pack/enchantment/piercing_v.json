@@ -1,0 +1,29 @@
+{
+  "anvil_cost": 1,
+  "description": "Piercing V",
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "orangesmp_pack:enchantments/piercing_v"
+        }
+      }
+    ]
+  },
+  "exclusive_set": "minecraft:multishot",
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 41,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/crossbow",
+  "weight": 1
+}

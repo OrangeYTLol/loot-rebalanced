@@ -1,0 +1,15 @@
+{
+  "name": "orangesmp_pack:ice_dungeon/hall",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "orangesmp_pack:ice_dungeon/hall1",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

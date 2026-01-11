@@ -1,0 +1,2 @@
+execute store result storage orangesmp:fg level float 0.025 run data get entity @s SelectedItem.components."minecraft:enchantments"."orangesmp_pack:fragile_strength" 1
+function orangesmp_pack:enchantments/fg_check_dmg with storage orangesmp:fg

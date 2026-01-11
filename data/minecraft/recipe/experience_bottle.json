@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "glass_bottle",
+    "enchanted_book"
+  ],
+  "result": {
+    "count": 8,
+    "id": "experience_bottle"
+  }
+}

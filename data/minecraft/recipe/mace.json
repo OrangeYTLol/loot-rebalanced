@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:heavy_core",
+    "I": "minecraft:breeze_rod",
+    "T": "silence_armor_trim_smithing_template",
+    "E": "echo_shard"
+  },
+  "pattern": [
+    "E#E",
+    "ETE",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:mace"
+  }
+}

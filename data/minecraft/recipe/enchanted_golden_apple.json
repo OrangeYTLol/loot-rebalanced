@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "minecraft:gold_block",
+    "E": "minecraft:enchanted_book",
+    "A": "golden_apple"
+  },
+  "pattern": [
+    "GEG",
+    "EAE",
+    "GEG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:enchanted_golden_apple"
+  }
+}

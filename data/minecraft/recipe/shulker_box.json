@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:chest",
+    "-": "minecraft:shulker_shell",
+    "T": "spire_armor_trim_smithing_template",
+    "C": "popped_chorus_fruit"
+  },
+  "pattern": [
+    "C-C",
+    " # ",
+    "CTC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:shulker_box"
+  }
+}

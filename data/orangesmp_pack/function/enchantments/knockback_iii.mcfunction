@@ -1,0 +1,2 @@
+item modify entity @s weapon.mainhand {function:"minecraft:set_enchantments",enchantments:{"minecraft:knockback":3},add:false}
+item modify entity @s weapon.mainhand {function:"minecraft:filtered",item_filter:{predicates:{"minecraft:enchantments":[{enchantments:"minecraft:knockback",levels:{min:0}}]}},modifier:{function:"minecraft:set_enchantments",enchantments:{"orangesmp_pack:knockback_iii":0},add:false}}

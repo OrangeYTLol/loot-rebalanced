@@ -1,0 +1,1 @@
+execute at @e[tag=attack_i2] run particle minecraft:electric_spark ~ ~0.5 ~ 0.5 1 0.5 0.5 25
