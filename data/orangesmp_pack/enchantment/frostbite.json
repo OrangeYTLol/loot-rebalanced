@@ -1,7 +1,7 @@
 {
   "description": "Frostbite",
   "exclusive_set": "#orangesmp_pack:status_effects",
-  "supported_items": "#minecraft:enchantable/sword",
+  "supported_items": "#minecraft:enchantable/sweeping",
   "weight": 1,
   "max_level": 3,
   "min_cost": {

@@ -13,7 +13,7 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#minecraft:enchantable/sword",
+  "supported_items": "#minecraft:enchantable/sweeping",
   "weight": 1,
   "effects": {
     "minecraft:location_changed": [
